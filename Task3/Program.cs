@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Task3
 {
@@ -6,27 +7,25 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            ChangeSugnificant();
-            ChangeRef();
+            Calculate();
         }
-
-        public static void ChangeSugnificant()
+        public static void Calculate()
         {
-            int digit = 10;
-            Console.WriteLine(digit);
-            Console.WriteLine(digit + 3);
-        }
 
-        public static void ChangeRef()
-        {
-            string name = Console.ReadLine();
-            Console.WriteLine(name);
+              while (true)
+            {
+                int x = 1000;
+                while (x > 0)
+                {
+                    Console.Write($"{Convert.ToString(x)} - 7 = ");
+                    x = x - 7;
+                    Console.WriteLine((x));
+                    Thread.Sleep(50);
+                }
+                Console.WriteLine("I`m Ghoul");
+            }
 
-            name = Console.ReadLine();
-            Console.WriteLine(name);
-            Console.WriteLine("   ");
-        }
-        
+        }        
 
     }
 }
