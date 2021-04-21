@@ -7,6 +7,7 @@ namespace HW8
     {
         public static void ChooseAction( List<Products> _store)
         {
+
             while (true)
             {
                 Console.WriteLine("Виберіть дію:\n(1) Переглянути всі товари, (2) Купити товар");
