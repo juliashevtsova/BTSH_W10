@@ -9,6 +9,7 @@ namespace HW8
         {
             while (true)
             {
+                Console.WriteLine("Hello !");
                 Console.WriteLine("Ви менеджер чи покупець:\n(1) Менеджер, (2) Покупець");
                 var userOperation = Console.ReadLine();
 
