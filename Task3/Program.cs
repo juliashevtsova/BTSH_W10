@@ -24,7 +24,9 @@ namespace Task3
 
             name = Console.ReadLine();
             Console.WriteLine(name);
-        }        
+            Console.WriteLine("   ");
+        }
+        
 
     }
 }
