@@ -11,7 +11,8 @@ namespace Task3
         }
         public static void Calculate()
         {
-            while (true)
+
+              while (true)
             {
                 int x = 1000;
                 while (x > 0)
@@ -23,7 +24,8 @@ namespace Task3
                 }
                 Console.WriteLine("I`m Ghoul");
             }
-           
-        }
+
+        }        
+
     }
 }
