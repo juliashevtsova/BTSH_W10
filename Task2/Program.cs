@@ -36,6 +36,7 @@ namespace Task2
 
             Interaction.Exchange(_currency);
         }
+
     }    
 }
 
