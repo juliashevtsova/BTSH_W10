@@ -11,15 +11,19 @@ namespace Task3
         }
         public static void Calculate()
         {
-            int x = 1000;
-            while (x > 0)
+            while (true)
             {
-                Console.Write($"{Convert.ToString(x)} - 7 = ");
-                x = x - 7;
-                Console.WriteLine((x));
-                Thread.Sleep(50);
+                int x = 1000;
+                while (x > 0)
+                {
+                    Console.Write($"{Convert.ToString(x)} - 7 = ");
+                    x = x - 7;
+                    Console.WriteLine((x));
+                    Thread.Sleep(50);
+                }
+                Console.WriteLine("I`m Ghoul");
             }
-            Console.WriteLine("I`m Ghoul");
+           
         }
     }
 }
