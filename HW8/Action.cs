@@ -16,6 +16,9 @@ namespace HW8
                 {
                     case "1": Avtorized.AvtorizedManager(_login, _store); break;
                     case "2": Customer.ChooseAction(_store); break;
+                    case "3":
+                        Console.WriteLine("Create conflict");
+                        break;
                     default: Console.WriteLine("Ви ввели неправильну цифру"); break;
                 }
             }
